@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.susie.filmcollector.MovieSearchResults">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_add_actor"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/title_activity_actor" />
+        <item
+            android:id="@+id/menu_add_movie"
+            android:orderInCategory="2"
+            app:showAsAction="never"
+            android:title="@string/title_activity_add_movie" />
+        <item
+            android:id="@+id/menu_get_movies"
+            android:orderInCategory="3"
+            app:showAsAction="never"
+            android:title="@string/title_activity_movie_search" />
+    </group>
+</menu>
