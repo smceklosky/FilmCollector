@@ -30,7 +30,7 @@ public class Movie extends ActionBarActivity {
 
         // this String will be displayed when no actors have been
         // populated in the database
-        String[] noActors = {"No actors found!"};
+        String[] noActors = {"No actors were found!"};
 
         // get the actors populated in the actor table and store their data in an array
         actorData = dbHandler.getActors();
